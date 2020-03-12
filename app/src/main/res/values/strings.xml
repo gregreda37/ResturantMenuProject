@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Resturant Menu</string>
+    <string name="title_home">Breakfast</string>
+    <string name="title_lunch">Lunch</string>
+    <string name="title_dinner">Dinner</string>
+    <string name="title_desert">Desert</string>
+</resources>

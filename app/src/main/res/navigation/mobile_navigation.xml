@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_breakfast">
+
+    <fragment
+        android:id="@+id/navigation_breakfast"
+        android:name="com.ukrainianrestoration.resturantmenu.ui.breakfast.BreakfastFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_lunch"
+        android:name="com.ukrainianrestoration.resturantmenu.ui.lunch.LunchFragment"
+        android:label="@string/title_lunch"
+        tools:layout="@layout/fragment_lunch" />
+
+    <fragment
+        android:id="@+id/navigation_dinner"
+        android:name="com.ukrainianrestoration.resturantmenu.ui.dinner.DinnerFragment"
+        android:label="@string/title_dinner"
+        tools:layout="@layout/fragment_dinner" />
+
+    <fragment
+        android:id="@+id/navigation_desert"
+        android:name="com.ukrainianrestoration.resturantmenu.ui.desert.DesertFragment"
+        android:label="@string/title_desert"
+        tools:layout="@layout/fragment_desert" />
+</navigation>

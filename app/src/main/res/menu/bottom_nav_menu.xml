@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_breakfast"
+        android:icon="@drawable/ic_spa_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_lunch"
+        android:icon="@drawable/ic_local_pizza_black_24dp"
+        android:title="@string/title_lunch" />
+
+    <item
+        android:id="@+id/navigation_dinner"
+        android:icon="@drawable/ic_local_dining_black_24dp"
+        android:title="@string/title_dinner" />
+    <item
+        android:id="@+id/navigation_desert"
+        android:icon="@drawable/ic_nature_black_24dp"
+        android:title="@string/title_desert" />
+
+</menu>
